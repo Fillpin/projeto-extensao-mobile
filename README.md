@@ -16,4 +16,4 @@ Aplicativo Android para gestão de entregas, estoque e vendas de uma pastelaria.
 ## 📥 Como Executar  
 1. Clone o repositório:  
    ```bash  
-   git clone https://github.com/seu-usuario/pastelaria-app.git  
+   git clone https://github.com/Fillpin/projeto-extensao-mobile.git
