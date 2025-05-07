@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt' // Adicione esta linha para o Room
+}
+
+android {
+    // Configurações do Android (compileSdk, defaultConfig, etc.)
+}
+
+dependencies {
+    // SUAS DEPENDÊNCIAS AQUI
+    implementation "androidx.room:room-runtime:2.6.0"
+    kapt "androidx.room:room-compiler:2.6.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    implementation "com.google.android.material:material:1.11.0"
+    implementation "androidx.recyclerview:recyclerview:1.3.2"
+}
